@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+*{
+    box-sizing: border-box;
+ }
+ #header-nav{
+    background-color: chocolate;
+    border:4px solid black;
+ }
+ .col-md-12 ,.col-sm-12 ,.col-xs-12{
+    margin-top:5px;
+    padding:30px;
+     
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+ }
+ 
+ nav button{
+   float: right;
+ }
+ nav li{
+   background-color:wheat;
+   width:100%;
+ }
+ nav a:hover{
+   background-color: burlywood;
+   cursor: pointer;
+ }
+#not {
+  display: none;
+}
+@media  (max-width: 767px) {
+  
+
+  #not {
+      display: inline;
+  }                                                                                                                          
+
+ 
+}
+
